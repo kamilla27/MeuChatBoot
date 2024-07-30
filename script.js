@@ -8,7 +8,7 @@ function createMessageElement(text, isUser) {
   
   // Dicionário de respostas automatizadas
   const responses = {
-    'oi': '<strong>Olá!</strong> Bem-vindo ao nosso chatbot. Como posso ajudá-lo hoje? Digite uma pergunta ou escolha uma das opções abaixo: <br> - Serviços<br> - Horario<br> - Preço<br> - Ajuda<br> - Contato<br> - Endereço<br> - Outros. 🗨️',
+    'oi': '<strong>Olá!</strong> Bem-vindo ao nosso chatbot. Como posso ajudá-lo hoje? Digite uma pergunta ou escolha uma das opções abaixo: <br> - Serviços<br> - Horario<br> - Preço<br> - Privacidade<br> - Contato<br> - Endereço<br> - Outros. 🗨️',
     'serviços': '<strong>Serviços:</strong> Oferecemos uma variedade de serviços, incluindo consultoria e suporte técnico. 🚀',
     'horario': '<strong>Horário:</strong> Estamos disponíveis das 9h às 18h, de segunda a sexta-feira. ⏰',
     'preço': '<strong>Preço:</strong> Nossos preços variam de acordo com o serviço. Entre em contato para uma cotação. 💰',
@@ -31,7 +31,7 @@ function createMessageElement(text, isUser) {
    'carreira': '<strong>Carreira:</strong> Se você está interessado em trabalhar conosco, visite nossa página de carreiras em www.exemplo.com/carreiras. 💼',
    'empresa': '<strong>Empresa:</strong> Nossa empresa é líder no setor e está comprometida com a  excelência. Saiba mais em www.exemplo.com/sobre. 🌟',
    'blog': '<strong>Blog:</strong> Confira nosso blog para ler artigos interessantes e atualizações. Acesse www.exemplo.com/blog. 📝'
-   
+
 };
 
   // Função para processar e enviar uma mensagem
