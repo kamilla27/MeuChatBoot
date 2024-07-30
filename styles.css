@@ -3,14 +3,14 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f581dc;
+    background-color: #133d12;
   }
   
   /* Container do Chatbot */
   .chat-container {
     display: flex;
     flex-direction: column;
-    height: 90vh;
+    height: 80vh;
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
@@ -34,26 +34,22 @@ body, html {
     padding: 10px;
     margin-bottom: 10px;
     max-width: 80%;
-    line-height: 1.5;
+    line-height: 1.6;
     font-size: 14px;
   }
   
   .message.user {
-    background-color: #dcf8c6;
+    background-color: #bdec99;
     align-self: flex-end;
   }
   
-  .message.bot {
-    background-color: #ffffff;
-    border: 1px solid #ddd;
-    align-self: flex-start;
-  }
+
   
   /* Caixa de Entrada */
   .input-box {
     display: flex;
     border-top: 1px solid #ddd;
-    padding: 10px;
+    padding: 20px;
     background-color: #fff;
   }
   
@@ -67,7 +63,7 @@ body, html {
   }
   
   .input-box button {
-    background-color: #007bff;
+    background-color: #ff0037;
     color: #fff;
     border: none;
     border-radius: 20px;
@@ -77,7 +73,7 @@ body, html {
   }
   
   .input-box button:hover {
-    background-color: #0056b3;
+    background-color: #d13c55;
   }
   .emoji {
     width: 30px;
@@ -95,11 +91,37 @@ body, html {
   
   /* Estilo do emoji, se usado */
   .emoji {
-    width: 20px; /* Ajuste o tamanho conforme necessário */
+    width: 30px; /* Ajuste o tamanho conforme necessário */
     height: 24px;
     vertical-align: middle; /* Garante o alinhamento vertical com o texto */
     margin-right: 20px; /* Espaço entre o emoji e o texto */
   }
+  /* Estilo para mensagens do bot */
+.message.bot {
+  background-color: #ddaac6; /* Cor de fundo leve para as mensagens do bot */
+  border-radius: 10px;
+  padding: 10px;
+  margin: 80px;
+  height: 60px;
+  text-align: center; /* Centraliza o texto e a imagem dentro da div */
+}
+
+/* Estilo para a imagem do emoji */
+.message.bot .emoji {
+  display: block; /* Garante que a imagem seja exibida como bloco */
+  margin: 0 auto; /* Centraliza a imagem horizontalmente */
+  max-width: 50px; /* Limita o tamanho máximo da imagem */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+/* Estilo para o texto dentro da div do bot */
+.message.bot span {
+  display: block; /* Faz com que o texto ocupe uma nova linha */
+  margin-top: 10px; /* Espaço acima do texto */
+  font-size: 16px; /* Tamanho do texto */
+  color: #1a0303; /* Cor do texto */
+}
+
   
   
   
